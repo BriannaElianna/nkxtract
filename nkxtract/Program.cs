@@ -29,10 +29,10 @@ namespace nkxtract
   {
     static void Main(string[] args)
     {
-      if(args.Length != 2)
+      if(args.Length != 3)
       {
-        Console.WriteLine("Usage: nkxtract.exe path/to/file.nkx path/to/output/dir");
-        return;
+          Console.WriteLine("Usage: nkxtract.exe path/to/file.nkx path/to/output/dir InstrumentName");
+          return;
       }
       string inputFile = args[0];
       string outputDir = args[1];
