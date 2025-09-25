@@ -37,7 +37,7 @@ namespace nkxtract
       string inputFile = args[0];
       string outputDir = args[1];
 
-      var key = KeyLoader.LoadKey("24K Drums");
+      var key = KeyLoader.LoadKey("Release");
       if (key == null)
       {
         Console.WriteLine("Couldn't load decryption key: No key found in registry");
